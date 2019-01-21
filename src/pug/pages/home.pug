@@ -1,0 +1,15 @@
+//- Styles
+style(scope-css).
+
+//- Content
+h2.page-title
+	.icon.normal.home.color
+	span {{menu.home}}
+h3.page-content.home
+
+//- Scripts
+script(scope-script).
+	Render.printListItems(
+		'#main .page-content', 'about',
+		'`<li class="list-item"><h3 class="list-item--span_title">${item.name}</h3><div class="list-item--span_content">${item.content}</div></li>`'
+	)

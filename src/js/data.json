@@ -1,0 +1,64 @@
+{
+	"name":"Curriculum <@devem>",
+	"about":[
+		{"name":"name","content": "Edwin Fernando Marroquin Bustos"},
+		{"name":"email","content": "devemloop@gmail.com"},
+		{"name":"phone","content":"3142670224"},
+		{"name":"whatsapp","content":"+573142670224"}
+	],
+	"friends": [
+		{
+			"image":"https://scontent.fbog11-1.fna.fbcdn.net/v/t1.0-9/29541556_1793363207382743_5069333631378433680_n.jpg?_nc_cat=105&_nc_ht=scontent.fbog11-1.fna&oh=d76da8df9859ad12f503498c6ac49f61&oe=5CD84AE0",
+			"name": "diego marroquin",
+			"phone": "3142670224",
+			"email": "bumarroco@gmail.com"
+		},
+		{
+			"image":"https://scontent.fbog11-1.fna.fbcdn.net/v/t1.0-9/29541556_1793363207382743_5069333631378433680_n.jpg?_nc_cat=105&_nc_ht=scontent.fbog11-1.fna&oh=d76da8df9859ad12f503498c6ac49f61&oe=5CD84AE0",
+			"name": "Adriana Ramirez",
+			"phone": "3173393006",
+			"email": "adrato10@gmail.com"
+		},
+		{
+			"image":"https://scontent.fbog11-1.fna.fbcdn.net/v/t1.0-9/29541556_1793363207382743_5069333631378433680_n.jpg?_nc_cat=105&_nc_ht=scontent.fbog11-1.fna&oh=d76da8df9859ad12f503498c6ac49f61&oe=5CD84AE0",
+			"name": "Adriana Ramirez",
+			"phone": "3173393006",
+			"email": "adrato10@gmail.com"
+		},
+		{
+			"image":"https://scontent.fbog11-1.fna.fbcdn.net/v/t1.0-9/29541556_1793363207382743_5069333631378433680_n.jpg?_nc_cat=105&_nc_ht=scontent.fbog11-1.fna&oh=d76da8df9859ad12f503498c6ac49f61&oe=5CD84AE0",
+			"name": "Adriana Ramirez",
+			"phone": "3173393006",
+			"email": "adrato10@gmail.com"
+		},
+		{
+			"image":"https://scontent.fbog11-1.fna.fbcdn.net/v/t1.0-9/29541556_1793363207382743_5069333631378433680_n.jpg?_nc_cat=105&_nc_ht=scontent.fbog11-1.fna&oh=d76da8df9859ad12f503498c6ac49f61&oe=5CD84AE0",
+			"name": "Adriana Ramirez",
+			"phone": "3173393006",
+			"email": "adrato10@gmail.com"
+		}
+	],
+	"skills": [
+		{ "icon":"devicon-html5-plain colored", "skill":"html5" },
+		{ "icon":"devicon-html5-plain colored", "skill":"pug" },
+		{ "icon":"devicon-css3-plain colored", "skill":"css3" },
+		{ "icon":"devicon-sass-plain colored", "skill":"sass" },
+		{ "icon":"devicon-javascript-plain colored", "skill":"javascript" },
+		{ "icon":"devicon-jquery-plain colored", "skill":"jquery" },
+		{ "icon":"devicon-nodejs-plain colored", "skill":"nodejs" },
+		{ "icon":"devicon-vuejs-plain colored", "skill":"vuejs" },
+		{ "icon":"devicon-php-plain colored", "skill":"php" },
+		{ "icon":"devicon-mysql-plain colored", "skill":"mysql" },
+		{ "icon":"devicon-inkscape-plain colored", "skill":"inkscape" },
+		{ "icon":"devicon-gimp-plain colored", "skill":"gimp" }
+	],
+	"network": [
+		{ "icon": "fab fa-github", "name": "github", "url": "https://github.com/marrokin" },
+		{ "icon": "fab fa-codepen", "name": "codepen", "url": "https://codepen.com/marrokin" },
+		{ "icon": "fab fa-whatsapp", "name": "whatsapp", "url": "https://wa.me/573142670224" },
+		{ "icon": "fab fa-facebook-messenger", "name": "facebook", "url": "https://messenger.com/t/marrokin2" },
+		{ "icon": "fab fa-twitter", "name": "twitter", "url": "https://twitter.com/marrokin2" },
+		{ "icon": "fab fa-linkedin", "name": "linkedin", "url": "https://www.linkedin.com/in/marrokin2/" },
+		{ "icon": "fab fa-instagram", "name": "instagram", "url": "https://instagram.commarrokin2/" }
+	]
+}

@@ -1,0 +1,40 @@
+
+<style scope-css="scope-css"></style>
+<h2 class="page-title">
+  <div class="icon normal config color"></div><span>{{menu.config}}</span>
+</h2>
+<div class="page-content config">
+  <div class="form">
+    <div class="form-group">
+      <label for="language">{{controls.language}}</label>
+      <select class="language" id="language" name="language">
+        <option>{{general.select}}</option>
+        <option value="en_us">{{general.english}}</option>
+        <option value="es_co">{{general.spanish}}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="color">{{controls.fontSize}}</label>
+      <select class="font-size" id="fontSize" name="fontSize">
+        <option>{{general.select}}</option>
+        <option value="10">Extra Small</option>
+        <option value="13">Small</option>
+        <option value="16">Normal</option>
+        <option value="19">Big</option>
+        <option value="22">Extra Big</option>
+      </select>
+    </div>
+    <div class="form-group borderless">
+      <div class="button error big" id="resetConfig">{{controls.reset}}</div>
+    </div>
+  </div>
+</div>
+<script scope-script="scope-script">
+  $('#language').addEventListener('input', function () {Settings.setConfig('lang', this.value)})
+  
+  //- $('#color').addEventListener('input', function () {Settings.setConfig('color', this.value)})
+  
+  $('#fontSize').addEventListener('input', function () {Settings.setConfig('fontSize', this.value)})
+  
+  $('#resetConfig').addEventListener('click', Settings.resetConfig)
+</script>

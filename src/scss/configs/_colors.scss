@@ -1,0 +1,16 @@
+// Template
+$dark : #241c1c;
+$acent: #ff5722;
+$light: #ffccbc;
+$white: #ffffff;
+
+// Actions
+$error: #b71c1c;
+$alert: #ef6c00;
+$success: #2e7d32;
+$info : #1a237e;
+
+$action-colors: (error: $error,
+alert: $alert,
+success: $success,
+info: $info);

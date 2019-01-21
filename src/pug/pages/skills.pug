@@ -1,0 +1,15 @@
+//- Styles
+style(scope-css).
+
+//- Content
+h2.page-title
+	.icon.normal.skills.color
+	span {{menu.skills}}
+.page-content.skills
+
+//- Scripts
+script(scope-script).
+	Render.printListItems(
+		'#main .page-content','skills',
+		'`<li class="list-item"><i class="list-item--icon ${item.icon}"></i> <span class="list-item--span">${item.skill}</span></li>`'
+	)

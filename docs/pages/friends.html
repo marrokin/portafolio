@@ -1,0 +1,12 @@
+
+<style scope-css="scope-css"></style>
+<h2 class="page-title">
+  <div class="icon normal friends color"></div><span>{{menu.friends}}</span>
+</h2>
+<div class="page-content friends"></div>
+<script scope-script="scope-script">
+  Render.printListItems(
+  	'#main .page-content','friends',
+  	'`<li class="list-item"><div class="list-item--icon"><img src="./assets/img/friends/${item.image}"/></div><span class="list-item--span"><span class="name">${item.name}</span><span class="job">${item.job}</span><a href="mailto:${item.email}" class="email">${item.email}</a><a href="tel:${item.phone}" class="phone">${item.phone}</a> </span></li>`'
+  )
+</script>

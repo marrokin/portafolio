@@ -1,0 +1,32 @@
+.form {
+	&-group {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		border: 1px solid var(--acent);
+
+		&.borderless {
+			border: none;
+		}
+
+		label {
+			min-width: 50%;
+			background: var(--acent);
+			color: var(--white);
+			padding: .5rem;
+			height: 100%;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+		}
+
+		select {
+			border: none;
+			background: none;
+			 color: var(--dark);
+			 padding: .25rem .5rem;
+			 width: 100%;
+			 outline: none;
+		}
+	}
+}

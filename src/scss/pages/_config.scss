@@ -1,0 +1,15 @@
+.config {
+	.form {
+		display: grid;
+		grid-gap: .5rem;
+		grid-template-columns: repeat(1, 1fr);
+
+		@media ($media-tablet) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@media ($media-laptop) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+}

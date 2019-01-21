@@ -1,0 +1,23 @@
+body {
+
+	&.dark {
+		--dark: #212121;
+		--acent: #dd2c00;
+		--light: #ffccbc;
+		--white: white;
+		color: var(--dark);
+
+		main,
+		nav {
+			background: var(--light)
+		}
+	}
+
+	&.light {
+		--dark: #121212;
+		--acent: #515151;
+		--light: #dddddd;
+		--white: #ffffff;
+		color: var(--dark);
+	}
+}

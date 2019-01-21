@@ -1,0 +1,13 @@
+@mixin fonts($name, $path, $weight, $extensions) {
+
+	@each $kw,
+	$vw in $weight {
+		@each $ve in $extensions {
+			@font-face {
+				font-family: $name;
+				src: url($path + '/' + $name + '-' + $kw + '.' + $ve);
+				font-weight: $vw;
+			}
+		}
+	}
+}

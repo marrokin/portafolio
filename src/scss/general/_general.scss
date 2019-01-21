@@ -1,0 +1,33 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	display: flex;
+	flex: 1;
+	min-height: 100vh;
+	max-height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+	word-break: break-word;
+	color: var(--dark);
+
+	@media ($media-tablet) {
+		flex-direction: row;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	height: 100%;
+}
+
+main {
+	flex: 1;
+}

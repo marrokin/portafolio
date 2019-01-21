@@ -1,0 +1,46 @@
+.friends {
+	>.list {
+		display: grid;
+		grid-template-column: repeat(1, 1fr);
+		grid-gap: .5rem;
+
+		@media ($media-laptop) {
+			grid-template-columns: repeat(2, 1fr)
+		}
+
+		.list-item {
+			height: 6rem;
+
+			&--icon {
+				width: 5rem;
+				height: 5rem;
+			}
+
+			&--span {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				height: 100%;
+
+				.name {
+					font-weight: bold;
+					text-transform: uppercase;
+				}
+
+				.job {
+					font-size: .8rem;
+				}
+
+				.email {
+					font-weight: bold;
+					font-size: .8rem;
+					color: var(--acent);
+				}
+
+				.phone {
+					color: var(--dark);
+				}
+			}
+		}
+	}
+}

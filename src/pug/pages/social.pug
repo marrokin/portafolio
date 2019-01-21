@@ -1,0 +1,15 @@
+//- Styles
+style(scope-css).
+
+//- Content
+h2.page-title
+	.icon.normal.network.color
+	span {{menu.social}}
+.page-content.social
+
+//- Scripts
+script(scope-script).
+	Render.printListItems(
+		'#main .page-content', 'network',
+		'`<div class="list-item"><i class="list-item--icon ${item.icon}"></i><a class="list-item--span" href="${item.url}" target="_NEW"><span>${item.name}</span></a></div>`'
+	)

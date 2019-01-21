@@ -1,0 +1,44 @@
+$b : 32px;
+$cols : 12;
+$rows : 5;
+$src: '/src/assets/img/sprite_images.svg';
+
+$wi: $b * $cols;
+$hi: $b * $rows;
+
+$dims:(ultra: 2,
+bigger: 1.5,
+big: 1.25,
+normal: 1,
+small: .75,
+smaller: .5,
+atomic: .25);
+
+$icons: (fan: 0,
+me: 1,
+friends: 2,
+network: 3,
+config: 4,
+works: 5,
+bell: 6,
+mail: 7,
+home: 8,
+skills: 9,
+about: 10,
+error: 11);
+
+$contexts:(color: 0,
+acent: 1,
+light: 2,
+white: 3,
+dark: 4);
+
+$dimsExtend : (icon8px: .25,
+icon12px: .375,
+icon16px: .5,
+icon24px: .75,
+icon32px: 1,
+icon40px: 1.25,
+icon48px: 1.5,
+icon56px: 1.75,
+icon64px: 2);

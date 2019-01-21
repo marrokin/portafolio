@@ -1,0 +1,15 @@
+//- Styles
+style(scope-css).
+
+//- Content
+h2.page-title
+	.icon.normal.friends.color
+	span {{menu.friends}}
+.page-content.friends
+
+//- Scripts
+script(scope-script).
+	Render.printListItems(
+		'#main .page-content','friends',
+		'`<li class="list-item"><div class="list-item--icon"><img src="/src/assets/img/friends/${item.image}"/></div><span class="list-item--span"><span class="name">${item.name}</span><span class="job">${item.job}</span><a href="mailto:${item.email}" class="email">${item.email}</a><a href="tel:${item.phone}" class="phone">${item.phone}</a> </span></li>`'
+	)

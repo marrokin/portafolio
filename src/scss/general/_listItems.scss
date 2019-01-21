@@ -1,0 +1,28 @@
+.list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	&-item {
+		height: 4rem;
+		display: flex;
+		flex-direction: row;
+		border: 1px solid gainsboro;
+		align-items: center;
+		padding: .5rem;
+
+		&--icon {
+			height: 3rem;
+			width: 3rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: var(--acent)
+		}
+
+		&--span {
+			margin-left: .5rem;
+			color: var(--dark)
+		}
+	}
+}

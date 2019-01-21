@@ -1,0 +1,12 @@
+
+<style scope-css="scope-css"></style>
+<h2 class="page-title">
+  <div class="icon normal skills color"></div><span>{{menu.skills}}</span>
+</h2>
+<div class="page-content skills"></div>
+<script scope-script="scope-script">
+  Render.printListItems(
+  	'#main .page-content','skills',
+  	'`<li class="list-item"><i class="list-item--icon ${item.icon}"></i> <span class="list-item--span">${item.skill}</span></li>`'
+  )
+</script>

@@ -1,0 +1,36 @@
+//- Styles
+style(scope-css).
+
+//- Content
+h2.page-title
+	.icon.normal.config.color
+	span {{menu.config}}
+.page-content.config
+	.form
+		.form-group
+			label(for="language") {{controls.language}}
+			select.language#language(name="language")
+				option {{general.select}}
+				option(value="en_us") {{general.english}}
+				option(value="es_co") {{general.spanish}}
+		.form-group
+			label(for="color") {{controls.fontSize}}
+			select.font-size#fontSize(name="fontSize")
+				option {{general.select}}
+				option(value="10") Extra Small
+				option(value="13") Small
+				option(value="16") Normal
+				option(value="19") Big
+				option(value="22") Extra Big
+		.form-group.borderless
+			.button.error.big#resetConfig {{controls.reset}}
+
+//- Script
+script(scope-script).
+	$('#language').addEventListener('input', function () {Settings.setConfig('lang', this.value)})
+
+	//- $('#color').addEventListener('input', function () {Settings.setConfig('color', this.value)})
+
+	$('#fontSize').addEventListener('input', function () {Settings.setConfig('fontSize', this.value)})
+
+	$('#resetConfig').addEventListener('click', Settings.resetConfig)

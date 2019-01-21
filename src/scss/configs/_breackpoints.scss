@@ -1,0 +1,9 @@
+$mobile: 425px !default;
+$tablet: 768px !default;
+$laptop: 1024px !default;
+$hd: 4025px !default;
+
+$media-mobile: 'min-width:'+$mobile !default;
+$media-tablet: 'min-width:'+$tablet !default;
+$media-laptop: 'min-width:'+$laptop !default;
+$media-hd: 'min-width:'+$hd !default;

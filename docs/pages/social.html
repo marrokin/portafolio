@@ -1,0 +1,12 @@
+
+<style scope-css="scope-css"></style>
+<h2 class="page-title">
+  <div class="icon normal network color"></div><span>{{menu.social}}</span>
+</h2>
+<div class="page-content social"></div>
+<script scope-script="scope-script">
+  Render.printListItems(
+  	'#main .page-content', 'network',
+  	'`<div class="list-item"><i class="list-item--icon ${item.icon}"></i><a class="list-item--span" href="${item.url}" target="_NEW"><span>${item.name}</span></a></div>`'
+  )
+</script>

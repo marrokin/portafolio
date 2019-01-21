@@ -1,0 +1,42 @@
+.page-content.error {
+	background: url(/src/assets/img/404.svg) no-repeat var(--white);
+	background-position: center bottom;
+	background-size: 100%;
+
+	@media ($media-laptop) {
+		background-size: 80%
+	}
+
+	&.page-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		.message {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			margin-top: 4rem;
+			color: var(--error);
+			max-width: 10rem;
+			font-size: 1.5rem;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin: 0 0 auto auto;
+
+			@media ($media-tablet) {
+				margin: 4rem 4rem auto auto;
+				max-width: 14rem;
+				font-size: 2rem;
+			}
+
+			@media ($media-laptop) {
+				margin: 2rem 2rem auto auto;
+				max-width: 20rem;
+				font-size: 3rem;
+			}
+		}
+	}
+}

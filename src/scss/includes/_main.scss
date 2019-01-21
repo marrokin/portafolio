@@ -1,0 +1,46 @@
+.main {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	border-bottom: 1px solid var(--acent);
+
+	@media ($media-tablet) {
+		border: none;
+		border-right: 1px solid var(--acent);
+	}
+
+	.page-title {
+		margin: 0;
+		height: 3rem;
+		min-height: 3rem;
+		font-size: 1.6rem;
+		background: var(--acent);
+		display: flex;
+		align-items: center;
+		padding: 0 1rem;
+		text-transform: uppercase;
+
+		.icon {
+			margin-right: auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		@media ($media-tablet) {
+			height: 4rem;
+
+			.icon {
+				margin-right: 1rem;
+			}
+		}
+	}
+
+	.page-content {
+		flex: 1;
+		box-shadow: 0 1px 3px 0 rgba($dark, .5);
+		margin: 1rem;
+		overflow-y: auto;
+		padding: .5rem
+	}
+}

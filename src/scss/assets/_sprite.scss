@@ -1,0 +1,26 @@
+.icon {
+	background: url($src) no-repeat;
+	background-size: $wi $hi;
+	width: $b;
+	height: $b;
+
+	@each $dk,
+	$dv in $dims {
+		&.#{$dk} {
+			width: #{$b * $dv};
+			height: #{$b * $dv};
+			background-size: #{$wi * $dv} #{$hi * $dv};
+
+			@each $ik,
+			$iv in $icons {
+
+				@each $ck,
+				$cv in $contexts {
+					&.#{$ik}.#{$ck} {
+						background-position: #{-$iv * $b * $dv} #{-$cv * $b * $dv};
+					}
+				}
+			}
+		}
+	}
+}

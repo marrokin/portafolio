@@ -1,0 +1,21 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+            	"useBuiltIns": false,
+                "targets":
+                {
+                    "browsers": ["last 2 versions"]
+                },
+                "debug": false
+            }
+        ]
+    ],
+    "plugins": [
+    	"@babel/transform-runtime",
+    	["@babel/plugin-transform-template-literals", {
+      "loose": true
+    }]
+    ]
+}

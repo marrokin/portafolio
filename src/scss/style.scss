@@ -1,0 +1,29 @@
+:root {
+	font-size: 16px;
+	font-family: sans-serif, arial;
+	font-weight: normal;
+
+	// Template
+	--dark: #1c0700;
+	--acent: #ff5722;
+	--light: #ffccbc;
+	--white: #ffffff;
+
+	// Actions
+	--error: #f44336;
+	--alert: #ff9800;
+	--success: #4caf50;
+	--info: #3f51b5;
+
+}
+
+@import 'configs/index';
+
+@import 'libraries/index';
+
+@import 'assets/index';
+
+@import 'general/index';
+
+@import 'includes/index';
+@import 'pages/index';

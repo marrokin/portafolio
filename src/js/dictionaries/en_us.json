@@ -1,0 +1,159 @@
+{
+	"name": "Curriculum <@devem>",
+	"controls": {
+		"language": "Language",
+		"fontSize": "Font Size",
+		"reset": "Reset"
+	},
+	"general": {
+		"select": "Select",
+		"english": "English",
+		"spanish": "Spanish",
+		"error": "---! NOT FOUND ¡---",
+		"message404": "This page not found"
+	},
+	"header": {
+		"call": "CALL ME!",
+		"contact": "CONTACT ME!"
+	},
+	"menu": {
+		"home": "Home",
+		"skills": "Skills",
+		"works": "Works",
+		"about": "About",
+		"friends": "Friends",
+		"social": "Social",
+		"config": "Settings"
+	},
+	"about": [{
+			"name": "Name",
+			"content": "Edwin Fernando Marroquin Bustos"
+		},
+		{
+			"name": "Email",
+			"content": "devemloop@gmail.com"
+		},
+		{
+			"name": "Phone",
+			"content": "3142670224"
+		},
+		{
+			"name": "About me",
+			"content": "Technologist in civil constructions by chance and passionate sports trainer, self-taught developer of heart, curious by nature, creative, with knowledge in the area of web development acquired through hours of continuous study and constant practice looking for solutions to common problems that have been presented in everyday life."
+		}
+	],
+	"friends": [{
+			"image": "johan_vargas.png",
+			"name": "Johan Vargas",
+			"job": "Web Development",
+			"phone": "3044704118",
+			"email": "johanvargas@outlook.com"
+		},
+		{
+			"image": "diego_marroquin.png",
+			"name": "diego marroquin",
+			"job": "Entrenador Deportivo",
+			"phone": "3142670224",
+			"email": "bumarroco@gmail.com"
+		},
+		{
+			"image": "adriana_ramirez.png",
+			"name": "Adriana Ramirez",
+			"job": "Tecnologa en sistemas",
+			"phone": "3173393006",
+			"email": "adrato10@gmail.com"
+		},
+		{
+			"image": "vanesa_rocha.png",
+			"name": "Vanessa Rocha",
+			"job": "Trabajadora Social",
+			"phone": "3183977142",
+			"email": "equipo5efira@gmail.com"
+		}
+	],
+	"skills": [{
+			"icon": "devicon-html5-plain colored",
+			"skill": "html5"
+		},
+		{
+			"icon": "devicon-html5-plain colored",
+			"skill": "pug"
+		},
+		{
+			"icon": "devicon-css3-plain colored",
+			"skill": "css3"
+		},
+		{
+			"icon": "devicon-sass-plain colored",
+			"skill": "sass"
+		},
+		{
+			"icon": "devicon-javascript-plain colored",
+			"skill": "javascript"
+		},
+		{
+			"icon": "devicon-jquery-plain colored",
+			"skill": "jquery"
+		},
+		{
+			"icon": "devicon-nodejs-plain colored",
+			"skill": "nodejs"
+		},
+		{
+			"icon": "devicon-vuejs-plain colored",
+			"skill": "vuejs"
+		},
+		{
+			"icon": "devicon-php-plain colored",
+			"skill": "php"
+		},
+		{
+			"icon": "devicon-mysql-plain colored",
+			"skill": "mysql"
+		},
+		{
+			"icon": "devicon-inkscape-plain colored",
+			"skill": "inkscape"
+		},
+		{
+			"icon": "devicon-gimp-plain colored",
+			"skill": "gimp"
+		}
+	],
+	"network": [{
+			"icon": "fab fa-github fa-2x",
+			"name": "github",
+			"url": "https://github.com/marrokin"
+		},
+		{
+			"icon": "fab fa-codepen fa-2x",
+			"name": "codepen",
+			"url": "https://codepen.com/marrokin"
+		},
+		{
+			"icon": "fab fa-whatsapp fa-2x",
+			"name": "whatsapp",
+			"url": "https://wa.me/573142670224"
+		},
+		{
+			"icon": "fab fa-facebook-messenger fa-2x",
+			"name": "facebook",
+			"url": "https://messenger.com/t/marrokin2"
+		},
+		{
+			"icon": "fab fa-twitter fa-2x",
+			"name": "twitter",
+			"url": "https://twitter.com/marrokin2"
+		},
+		{
+			"icon": "fab fa-linkedin fa-2x",
+			"name": "linkedin",
+			"url": "https://www.linkedin.com/in/marrokin2/"
+		},
+		{
+			"icon": "fab fa-instagram fa-2x",
+			"name": "instagram",
+			"url": "https://instagram.commarrokin2/"
+		}
+	]
+}
