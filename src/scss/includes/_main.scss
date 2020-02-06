@@ -3,6 +3,9 @@
 	flex: 1;
 	flex-direction: column;
 	border-bottom: 1px solid var(--acent);
+	overflow: hidden;
+	height: 100%;
+
 
 	@media ($media-tablet) {
 		border: none;
