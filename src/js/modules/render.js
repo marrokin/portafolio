@@ -1,4 +1,4 @@
-import cookie from 'tiny-cookie'
+import * as cookie from 'tiny-cookie'
 
 const regExp = /\{\{+(.*)+(\.?)+(.*?)+\}\}/
 

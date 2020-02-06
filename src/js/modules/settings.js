@@ -1,4 +1,4 @@
-import Cookie from 'tiny-cookie'
+import * as Cookie from 'tiny-cookie'
 
 const Settings = {
 	color: null,
