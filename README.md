@@ -50,7 +50,7 @@
 - webpack/
 
 ## Version 1.0.0
-> La version 1.0.0 el portafolio sera desarrollado las siguientes tecnologías
+> La version 1.0.0 el portafolio sera desarrollada las siguientes tecnologías
 >
 >![vue](https://img.shields.io/badge/dynamic/json?color=green&label=vuejs&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fvuejs%2Fvue%2Fdev%2Fpackage.json)
 >![vue-router](https://img.shields.io/badge/dynamic/json?color=red&label=vue-router&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fvuejs%2Fvue-router%2Fdev%2Fpackage.json)
